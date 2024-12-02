@@ -2,6 +2,7 @@ body {
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
   --marrom-claro: #B29463;
+  --input-range: #B29463;
   font-family: 'Barlow', sans-serif;
   height: 4000px;
 }
@@ -51,4 +52,8 @@ input[type="checkbox"]:focus {
 
 .botao-padrao:hover {
   background-color: var(--marrom-escuro);
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: var(--input-range);
 }
