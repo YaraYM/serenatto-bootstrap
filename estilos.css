@@ -54,6 +54,17 @@ input[type="checkbox"]:focus {
   background-color: var(--marrom-escuro);
 }
 
-.form-range::-webkit-slider-thumb {
+.form-range::-webkit-slider-thumb, footer {
   background-color: var(--input-range);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+  }
 }
